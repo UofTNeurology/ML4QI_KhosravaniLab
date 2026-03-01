@@ -71,6 +71,16 @@ Developing evidence-based protocols for **routine integration of palliative care
 
 ## Lab Members
 
+### 2025-2026
+
+| Member | Role | Institution | Focus |
+|--------|------|-------------|-------|
+| Dr. B. Tilley | PGME Neurology | U of T | LLMs in EHRs |
+| Dr. E. Adegunna | PGME Neurology | U of T | Palliative Care, Pal-MASA |
+| D. Ahmed | UGME | U of T Medicine | QI in Neurology |
+| R. Saab | Medical Student | U of T Medicine | MASA |
+| Dr. A. Balachandar | PhD Candidate (Independent Investigator & Collaborator) | U of T Neurology | MASA |
+
 ### 2024-2025
 
 | Member | Role | Institution | Focus |
