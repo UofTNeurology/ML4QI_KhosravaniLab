@@ -94,7 +94,7 @@ Developing evidence-based protocols for **routine integration of palliative care
 | Dr. E. Adegunna | PGME Neurology | U of T | Palliative Care, Pal-MASA |
 | D. Ahmed | UGME | U of T Medicine | QI in Neurology |
 | R. Wu | UGME | U of T Medicine | LLMs in Neurology |
-| G. Khalaf | CREMS | U of T | -- |
+| G. Khalaf | CREMS | U of T | MASA |
 
 ### 2023-2024
 Dr. B. Sivanandan (Palliative Care), Dr. M. Mahendiran (Family Medicine)
