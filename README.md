@@ -79,7 +79,7 @@ Developing evidence-based protocols for **routine integration of palliative care
 | Dr. E. Adegunna | PGME Neurology | U of T | Palliative Care, Pal-MASA |
 | D. Ahmed | UGME | U of T Medicine | QI in Neurology |
 | R. Saab | Medical Student | U of T Medicine | MASA |
-| Dr. A. Balachandar | PhD Candidate (Independent Investigator & Collaborator) | U of T Neurology | MASA |
+| Dr. A. Balachandar | FRCPC Neurology, PhD Candidate (Independent Investigator & Collaborator) | U of T Neurology | MASA |
 
 ### 2024-2025
 
