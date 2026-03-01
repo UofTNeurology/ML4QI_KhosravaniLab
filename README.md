@@ -1,51 +1,125 @@
-# Welcome to the ML4QI Lab, [Stroke Innovation Lab](https://strokeinnovationlab.ca/)
-Our lab focuses on using machine learning for Quality Improvement in neurology and stroke care. The ML4QI Lab, PI: Dr. Houman Khosravani, is located in Toronto, Division of Neurology. Our lab's work is dedicated to Quality Improvement (QI) in several current areas of research:
+# ML4QI Lab -- [Stroke Innovation Lab](https://strokeinnovationlab.ca/)
 
-* ML4QI - machine learning for bolstering current standards of care. We are leveraging machine-learning to enhance QI within acute stroke care in the inpatient setting. Our current work is focused on using voice as a biomarker - we call this Sonic Diagnosis.
-* stroke resuscitation - our lab termed the work "stroke resuscitation", developed the protected code stroke protocol, defined the use of crisis resource management in stroke, and thus our focus is education and quality improvement during the code stroke process. We use CRM pricinples and have an active code stroke simulation program. This also includes our efforts within NICE (Neurovascular Innovations CollaborativE) as listed below.
-* palliaitve care in acute stroke - we are passionate about providing maximal effective care and that includes integration of palliative care within stroke treatment; our lab works on the development of protocols for routine integration of palliative care as we define the scope of palliative medicine in acute stroke care.
+**Machine Learning for Quality Improvement in Neurology and Stroke Care**
+PI: Dr. Houman Khosravani, MD PhD FRCPC | Division of Neurology, University of Toronto | Sunnybrook Health Sciences Centre
 
-Members of the lab also are involved in educational initiatives, a podcast on stroke education: Stroke FM Podcast, the official podcast of the Canadian Stroke Consortium.
+---
 
-**Machine Learning 4 Quality Improvement (ML4QI) and the Neurology Quality and Innovations Lab (NQIL)**
-* We are also exploring the intersection of machine learning and quality improvement, utilizing voice-based technologies to refine our methods. We have expertise in deep-learning and processing of audio signals.
-* Our pursuit of excellence extends to the cutting-edge field of machine learning. With support from T-CAIREM and SHSC, we are leveraging bedside physiologic recordings to improve the quality of acute stroke care.
+## Mission
 
-* **Machine learning as applied to quality improvement in stroke**
-    * 2024
-        * Lab Members (continuing and joining):
-            * Dr. A. Balachandar, Neurology, U of T, ML4QI in Stroke
-            * R. Saab, U of T Med, AI4QI in Stroke, U of T, Med 3, Sunnybrook Research Institute
-            * E. Nashnoush, MSc, U of T Data Science, Datathon co-founder, T-CAIREM, HQO
-            * H. Mahdi, Western University, Med 2, Sunnybrook Research Institute            
-            * Dr. E. Adegunna, Neurology, U of T, ML4QI in Stroke
-            * Dr. B. Tilley, Neurology, U of T
-            * R. Dagli, CS2, U of T
-    * 2023
-        * Lab Members:
-            * Dr. A. Balachandar, Neurology, U of T, PGY5 (PGY4 Project), ML4QI in Stroke
-            * R. Saab, U of T Med, AI4QI in Stroke, Sunnybrook Research Institute
-            * E. Nashnoush, MSc, U of T Data Science, AI4QI in Stroke, Sunnybrook Research Institute, T-CAIREM
-            * H. Mahdi, Western University, Med, AI4QI in Stroke, Sunnybrook Research Institute
-            * Dr. B. Sivanandan, Neurology, U of T, PGY4 Project, Palliative Care in Stroke
-            * Dr. M. Mahendiran, U of T, Family Medicine (graduated), Palliative Care in Stroke
-            * Dr. E. Adegunna, Neurology, U of T, PGY2
-            * Dr. B. Tilley, Neurology, U of T, PGY1 
-    * 2022
-        * Lab Members:
-            * Dr. A. Balachandar, Neurology, U of T
-            * R. Saab, U of T Med, T-CAIREM
-            * M. Panchal, U of T Med, CREMS
+The ML4QI Lab applies machine learning to elevate quality improvement in acute stroke care and neurology. We specialize in **Sonic Diagnosis** -- using voice as a biomarker through deep learning and spectral analysis of audio signals to transform clinical assessments at the bedside.
 
-**Neurovascular Resuscitation - Neurovascular Innovations CollaborativE (NICE)**
-* Our lab championed the framework of crisis resource management in stroke simulation to optimize critical intervention metrics such as "door-to-needle" times. We are proud to be pioneers in the field and we published the first reframe of Crisis Resource Management (CRM) for stroke care care. We alsp developed the "protected code stroke" during the COVID19 pandemic, which was integrated into national and international guidelines, and downloaded over 27K times from the American Heart Association, Stroke journal's website. Our research aims to enhance care pathways and human performance factors for acute stroke patients through simulation of neurovascular resuscitation. We have introduced the concept of "neurovascular resuscitation," applying principles from medical and trauma resuscitation to stroke treatment - thereby reinstating the 'code' in code stroke.
-* In 2023, Dr. Houman Khosravani and Dr. Christine Hawkes co-founded the Neurovascular Innovations CollaborativE (NICE), an initiative projected to contribute substantially to augmenting neurovascular care education.
-* Our lab's portion of focus is the medical/neurocritical care efforts within NICE, while Dr. Hawkes helms the neurovascular and catheter-based aspects of hyperacute care and techniques.
+---
 
-**Routine Integration of Palliative Care in Stroke**
-* Despite significant advancements in stroke care, a considerable number of patients still grapple with substantial morbidity and mortality. Recognizing this, we advocate for the routine integration of palliative care into stroke treatment. Compassionate and effective care forms the bedrock of the philosophy we advocate for in terms of expanding the confluence of palliative medicine and stroke care.
+## Research Areas
 
-If you are a student with an interest in QI and experienced in research, or if you are an engineering or CS or MD student interested in clinical applications of machine learning in neurology please reach out.
+### ML4QI: Machine Learning for Quality Improvement
+
+Our core research leverages machine learning to enhance standards of care in the inpatient stroke setting. With support from T-CAIREM and Sunnybrook Health Sciences Centre, we develop AI-driven tools using bedside physiologic recordings.
+
+#### Project MASA (Machine Learning Assisted Swallowing Assessment)
+
+**Dysphagia** is one of the most common and dangerous complications of acute stroke. MASA applies ML to voice biomarkers during swallowing assessments to improve screening accuracy and efficiency:
+
+- Spectral analysis (Mel spectrograms, Superlet transforms) of voice recordings
+- CNN-based classification (DenseNet) aligned with the TOR-BSST screening protocol
+- Published in **Frontiers in Neuroscience** (2023): [masa-open-source](https://github.com/UofTNeurology/masa-open-source)
+- "Analysis of Audio Classifier Performance in Clinical Settings with Limited Data" -- **CHIL 2024**, NYC ([arXiv:2402.10100](https://arxiv.org/abs/2402.10100))
+
+#### Pal-MASA (2025)
+
+Expanding ML-based dysphagia screening **beyond stroke** to all clinical settings. Funded by AFP MD Funding. Applying voice analysis to detect swallowing impairment regardless of underlying etiology.
+
+#### Contrastive Learning for Audio Classification
+
+Implementation of SoundCLR contrastive learning framework for audio signal classification, building transferable methodology for clinical voice diagnostics. See [contrastive_learning_torch](https://github.com/UofTNeurology/contrastive_learning_torch).
+
+#### SEE-2-SOUND
+
+Spatial audio generation from visual media using generative AI. Accepted to **SIGGRAPH 2025**. Applications for patients with vision loss. Led by Rishit Dagli. ([arXiv:2406.06612](https://arxiv.org/abs/2406.06612))
+
+---
+
+### Stroke Resuscitation and Simulation
+
+We originated the concept of **stroke resuscitation** and pioneered the application of resuscitation science to acute stroke care:
+
+- **Protected Code Stroke** -- developed during COVID-19, integrated into national/international guidelines, >30,000 downloads from AHA *Stroke*
+- **Crisis Resource Management (CRM) in Stroke** -- first reframing of CRM for stroke care
+- **Neurovascular Resuscitation** -- applying medical and trauma resuscitation principles to stroke, reinstating the "code" in code stroke
+- **Zero Point Survey (STEP Framework)** -- structured code stroke activation and team workflow
+
+#### Simulation Program
+
+We run an **active code stroke simulation program** using CRM principles and a pit crew model:
+- Team communication and role clarity training
+- Door-to-needle and door-to-puncture time optimization
+- Hot debriefing and continuous performance improvement
+- Human factors in high-stakes neurovascular emergencies
+
+#### NICE (Neurovascular Innovations CollaborativE)
+
+Co-founded in 2023 by Dr. Khosravani and Dr. Christine Hawkes to advance neurovascular care education through simulation and innovation.
+
+---
+
+### Palliative Care in Acute Stroke
+
+Developing evidence-based protocols for **routine integration of palliative care** into acute stroke treatment, expanding the confluence of palliative medicine and stroke care.
+
+---
+
+## Lab Members
+
+### 2024-2025
+
+| Member | Role | Institution | Focus |
+|--------|------|-------------|-------|
+| Dr. A. Balachandar | Movement Disorders Fellow / PhD Candidate | U of T Neurology | MASA |
+| R. Saab | Medical Student | U of T Medicine | MASA |
+| E. Nashnoush | MSc Data Science | U of T / Sunnybrook / T-CAIREM | MASA |
+| H. Mahdi | Medical Student | Western University | MASA |
+| R. Dagli | Computer Science (NVIDIA Fellow, T-CAIREM 2024 Award) | U of T | ML4QI, MASA, SEE-2-SOUND |
+| Dr. B. Tilley | PGME Neurology | U of T | LLMs in EHRs |
+| Dr. E. Adegunna | PGME Neurology | U of T | Palliative Care, Pal-MASA |
+| D. Ahmed | UGME | U of T Medicine | QI in Neurology |
+| R. Wu | UGME | U of T Medicine | LLMs in Neurology |
+
+### 2023-2024
+Dr. B. Sivanandan (Palliative Care), Dr. M. Mahendiran (Family Medicine), G. Khalaf (CREMS)
+
+### 2022-2023
+M. Panchal (CREMS)
+
+---
+
+## Repositories
+
+| Repository | Description |
+|------------|-------------|
+| [masa-open-source](https://github.com/UofTNeurology/masa-open-source) | ML-Assisted Swallowing Assessment for dysphagia screening |
+| [contrastive_learning_torch](https://github.com/UofTNeurology/contrastive_learning_torch) | Contrastive learning for audio classification |
+| [UofTNeurology.github.io](https://github.com/UofTNeurology/UofTNeurology.github.io) | Lab website ([strokeinnovationlab.ca](https://strokeinnovationlab.ca)) |
+
+---
+
+## Affiliations
+
+- Division of Neurology, University of Toronto
+- Sunnybrook Health Sciences Centre / Sunnybrook Research Institute
+- T-CAIREM (Toronto Centre for AI in Research, Ethics and Medicine)
+- Neurology Quality and Innovations Lab (NQIL)
+
+---
+
+## Student Recruitment
+
+We accept approximately 1 T-CAIREM student and 1 additional student (via SRI or CREMS) per year. Seeking students with QI/research experience, or engineering/CS/MD backgrounds interested in clinical applications of machine learning in neurology.
+
+Contact: houman [at] neurovascular [dot] ca
+
+---
 
 ## Disclaimer
-This GitHub repository is for educational purposes only and does not represent expert medical judgment or assessment. The tools and information provided herein are not intended for clinical use and should not be relied upon for medical decision-making. No duty of care is assumed by the contributors, and all individuals associated with this project are absolved of any medical-legal burden. The views and work expressed in this repository do not reflect the official stance of any affiliated academic/other institutions or hospitals where we work or study. Use at your own risk.
+
+This repository is for educational and research purposes only and does not represent expert medical judgment or assessment. The tools and information provided are not intended for clinical use and should not be relied upon for medical decision-making. No duty of care is assumed by the contributors. The views expressed do not reflect the official stance of any affiliated academic institutions or hospitals.
