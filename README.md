@@ -44,7 +44,7 @@ Spatial audio generation from visual media using generative AI. Accepted to **SI
 
 We originated the concept of **stroke resuscitation** and pioneered the application of resuscitation science to acute stroke care:
 
-- **Protected Code Stroke** -- developed during COVID-19, integrated into national/international guidelines, >30,000 downloads from AHA *Stroke*
+- **Protected Code Stroke** -- developed during COVID-19, integrated into national/international guidelines, >47,000 downloads from AHA *Stroke*
 - **Crisis Resource Management (CRM) in Stroke** -- first reframing of CRM for stroke care
 - **Neurovascular Resuscitation** -- applying medical and trauma resuscitation principles to stroke, reinstating the "code" in code stroke
 - **Zero Point Survey (STEP Framework)** -- structured code stroke activation and team workflow
